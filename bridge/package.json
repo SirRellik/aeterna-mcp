@@ -1,0 +1,15 @@
+{
+  "name": "aeterna-bridge",
+  "version": "1.0.0",
+  "description": "Local bridge server for AI agents that cannot make outbound HTTP requests to AETERNA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  },
+  "license": "MIT"
+}
